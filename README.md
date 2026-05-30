@@ -35,7 +35,7 @@ brew untap yoshinag/monoflick-companion-for-macos
 | 用途 | URL |
 |---|---|
 | ソースコード (iOS + Mac) | <https://github.com/yoshinag/mono_flick> |
-| Releases (DMG) | <https://github.com/yoshinag/mono_flick/releases> |
+| DMG 配布元 | <https://github.com/yoshinag/homebrew-monoflick-companion-for-macos/tree/main/assets> |
 | iOS アプリ (App Store) | (TBD) |
 
 ## Distribution
