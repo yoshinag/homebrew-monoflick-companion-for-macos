@@ -11,6 +11,18 @@ brew tap yoshinag/monoflick-companion-for-macos
 brew install --cask monoflick-companion
 ```
 
+旧版 1.0.0 を固定で入れる場合（最新版とは同じ `MonoFlick Companion.app` を使うため同時インストール不可）:
+
+```sh
+brew uninstall --cask monoflick-companion   # 最新版が入っている場合
+brew install --cask monoflick-companion@1.0.0
+```
+
+| Cask | バージョン |
+|---|---|
+| `monoflick-companion` | 1.2.0（最新） |
+| `monoflick-companion@1.0.0` | 1.0.0（固定） |
+
 ## Update
 
 ```sh

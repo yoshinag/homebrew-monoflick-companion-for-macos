@@ -1,6 +1,6 @@
 cask "monoflick-companion" do
-  version "1.0.1"
-  sha256 "2837d3b5dcd578fece2df976ac206de723243f23db730abc454c6c8d90ebc592"
+  version "1.2.0"
+  sha256 "1964f906eef7394905de084c439d89363e7612f503346235ed9c1bd442b05f71"
 
   url "https://github.com/yoshinag/homebrew-monoflick-companion-for-macos/raw/main/assets/MonoFlick-Companion-#{version}.dmg"
   name "MonoFlick Companion"
@@ -11,6 +11,7 @@ cask "monoflick-companion" do
     skip "Version is managed via direct commits to this tap"
   end
 
+  conflicts_with cask: "monoflick-companion@1.0.0"
   depends_on macos: :sequoia
 
   app "MonoFlick Companion.app"
