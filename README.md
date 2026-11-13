@@ -8,6 +8,8 @@
 > brew install --cask foo-tec/tap/monoflick-companion
 > ```
 >
+> この tap を外す（`brew untap yoshinag/monoflick-companion-for-macos`）ときは、先に `brew update` を一度実行してください。移る前に外すと、入っている MonoFlick Companion をアンインストールするか尋ねられます。
+>
 > 以下は移転前の説明です。
 
 [MonoFlick](https://github.com/yoshinag/mono_flick) の Mac コンパニオンアプリを Homebrew Cask で配布する tap。
