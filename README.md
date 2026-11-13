@@ -1,5 +1,15 @@
 # Homebrew Tap for MonoFlick Companion
 
+> **移転しました:** MonoFlick Companion の配布は [foo-tec/homebrew-tap](https://github.com/foo-tec/homebrew-tap)（`brew tap foo-tec/tap`）に移りました。この tap から入れた人は、`brew update` で自動的に移ります。新しく入れる場合は次のとおりです。
+>
+> ```sh
+> brew tap foo-tec/tap
+> brew trust --cask foo-tec/tap/monoflick-companion
+> brew install --cask foo-tec/tap/monoflick-companion
+> ```
+>
+> 以下は移転前の説明です。
+
 [MonoFlick](https://github.com/yoshinag/mono_flick) の Mac コンパニオンアプリを Homebrew Cask で配布する tap。
 
 > MonoFlick: iPhone を片手フリック入力デバイス化し、Mac の最前面アプリへ文字 / ポインタ操作を送信する。本 tap は Mac 側のコンパニオンアプリのみ配布する。
