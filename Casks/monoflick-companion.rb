@@ -1,6 +1,6 @@
 cask "monoflick-companion" do
-  version "1.2.0"
-  sha256 "7259c58b155ad574557853537b52fc6cdbe16a32e083ea455a2ecd62893bde0a"
+  version "1.3.0"
+  sha256 "e10e1d3c050a598da8eb58cd721e108b619af2bf61dd2dd6595f1e5181715c34"
 
   url "https://github.com/yoshinag/homebrew-monoflick-companion-for-macos/raw/main/assets/MonoFlick-Companion-#{version}.dmg"
   name "MonoFlick Companion"

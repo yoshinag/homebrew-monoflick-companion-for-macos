@@ -20,7 +20,7 @@ brew install --cask monoflick-companion@1.0.0
 
 | Cask | バージョン |
 |---|---|
-| `monoflick-companion` | 1.2.0（最新） |
+| `monoflick-companion` | 1.3.0（最新） |
 | `monoflick-companion@1.0.0` | 1.0.0（固定） |
 
 ## Update
